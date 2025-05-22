@@ -6,7 +6,9 @@ services:
     name: asia-motor-score-streamlit
     env: python
     plan: free  # switch to 'starter' for always-on
-    buildCommand: "pip install -r requirements.txt"
+    buildCommand: |
+      git submodule update --init --recursive
+      pip install -r requirements.txt
     startCommand: "streamlit run streamlit_app.py --server.port $PORT --server.headless true"
     autoDeploy: true
 
