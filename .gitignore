@@ -1,0 +1,31 @@
+# Byte-compiled / distribution / metadata
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter / IPython
+*.ipynb_checkpoints
+
+# Data & models (large files)
+models_exact/
+*.pkl
+*.joblib
+data/raw/
+
+# OS / editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Streamlit cache
+.streamlit/
+
+# Figures (can regenerate)
+asia-impairment-track-prediction/visuals/figures/*.png
+asia-impairment-track-prediction/visuals/figures/*.svg
+asia-impairment-track-prediction/visuals/figures/*.gif
