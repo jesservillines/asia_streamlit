@@ -26,6 +26,7 @@ data/raw/
 .streamlit/
 
 # Figures (can regenerate)
-asia-impairment-track-prediction/visuals/figures/*.png
-asia-impairment-track-prediction/visuals/figures/*.svg
-asia-impairment-track-prediction/visuals/figures/*.gif
+# (Keep figures needed for Streamlit)
+# asia-impairment-track-prediction/visuals/figures/*.png
+# asia-impairment-track-prediction/visuals/figures/*.svg
+# asia-impairment-track-prediction/visuals/figures/*.gif
